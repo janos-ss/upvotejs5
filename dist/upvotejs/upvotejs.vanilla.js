@@ -1,3 +1,11 @@
+function fooz(a) {
+  bar(a);
+}
+
+function barz() {
+  foo();
+}
+
 function foo(a) {
   bar(a);
 }
