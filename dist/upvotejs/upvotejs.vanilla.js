@@ -1,3 +1,10 @@
+function foo(a) {
+  bar(a);
+}
+
+function bar() {
+  foo();
+}
 /*
  * UpvoteJS - a Stack Exchange look-alike voting widget
  * ----------------------------------------------------
